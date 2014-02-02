@@ -1,0 +1,33 @@
+B = 10
+PB = 8
+J = 6
+
+if B >2 and PB >1 and J > 1:
+    print "I can make a sandwich."
+else:
+	print "I won't have lunch."
+
+B = B/2
+
+if B < PB and B < J:
+    print "I can make {0} sandwiches and bread is the limiting ingredient." .format(B)
+elif PB < B and PB < J:
+    print "I can make {0} sandwiches and peanut butter is the limiting ingredient." .format(PB)
+else:
+    print "I can make {0} sandwiches and jelly is the limiting ingredient." .format(J)
+    
+if 2*B % 2 >0 or PB % 2 > 0 or J % 2 > 0:
+    print "You can make open face sandwiches."
+    
+else: print "You can make whole sandwiches."
+    
+if J == 0:
+    print "You can have a peanut butter sandwich."
+elif PB == 0:
+    print "You can have a jelly sandwich."
+    
+if 'B < PB and B < J' and PB < J:
+    print "you can make {0} PBJ sandwiches and {1} PB sandwich." .format(B, PB)
+    
+
+    
